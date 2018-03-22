@@ -8,7 +8,9 @@
     "type": "git"
   },
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build && next export",
+    "publish": "yarn run build && node publish.js"
   },
   "author": "Agatita <agathe.lhermet@gmail.com>",
   "contributors": [
@@ -24,6 +26,7 @@
   },
   "devDependencies": {
     "css-loader": "^0.28.10",
+    "gh-pages": "^1.1.0",
     "postcss-loader": "^2.1.1",
     "prettier": "1.11.1",
     "style-loader": "^0.20.2"
