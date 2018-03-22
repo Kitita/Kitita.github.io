@@ -1,0 +1,31 @@
+{
+  "name": "vocab",
+  "version": "1.0.0",
+  "description": "Create your custom dictionary list",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/agatita/vocab.git",
+    "type": "git"
+  },
+  "scripts": {
+    "dev": "next"
+  },
+  "author": "Agatita <agathe.lhermet@gmail.com>",
+  "contributors": [
+    "ElAssym El Mahdy"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^0.1.3",
+    "eslint": "^4.18.2",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "postcss-loader": "^2.1.1",
+    "prettier": "1.11.1",
+    "style-loader": "^0.20.2"
+  }
+}
