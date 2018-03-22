@@ -2,26 +2,10 @@
 
 header {
   display: flex;
-  padding: 20px;
+  font-size: 100px;
   align-items: center;
-  justify-content: space-between;
-  
-}
-
-header button{
-  border-width: 0;
-  background: none;
-  cursor: pointer;
-  font-size: 15px;
-}
-
-
-.vocab-List{
-  display: flex;
   justify-content: center;
-}
-
-[class^="vocab-List-"]{
-  display: flex;
-  flex-direction: column;
+  color: white;
+  background: rebeccapurple;
+  padding: 20px 0;
 }
